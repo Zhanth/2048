@@ -91,8 +91,12 @@ h1.title {
     top: -50px;
     opacity: 0; } }
 .scores-container {
-  float: right;
+  float: left;
   text-align: right; }
+
+.newgame.container {
+  float: right;
+  text-align: right; }  
 
 .score-container, .best-container {
   position: relative;
@@ -495,6 +499,9 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
+    @media screen and (max-width: 520px) {
+      .himage { width: 300px; }    
+    }
 
 @-webkit-keyframes appear {
   0% {
@@ -949,7 +956,7 @@ hr {
     opacity: 1;
     top: -45px;
     pointer-events: auto; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 520px) {
     .btc-donate {
       width: 120px; }
       .btc-donate .address {
